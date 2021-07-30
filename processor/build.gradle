@@ -21,7 +21,7 @@ dependencies {
     implementation project(":annotation")
     implementation "com.google.dagger:hilt-core:$hilt_version"
 
-    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.0"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.2"
     testImplementation "org.junit.jupiter:junit-jupiter-engine:5.7.0"
     testImplementation "com.github.tschuchortdev:kotlin-compile-testing:1.4.2"
     testRuntimeOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlin_version")
