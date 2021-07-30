@@ -27,7 +27,7 @@ So in this annotation processor I generate a module definition which works simil
 // top level build.gradle
 //..
 ```groovy
-allprojects {
+subprojects {
     repositories {
         // ...
         maven {
