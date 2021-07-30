@@ -7,21 +7,21 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/settings_cta"
         android:layout_width="wrap_content"
+        android:id="@+id/logout_cta"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/default_margin"
-        android:contentDescription="@string/settings"
-        android:src="@drawable/ic_settings"
+        android:contentDescription="@string/exit"
+        android:src="@drawable/ic_exit"
         android:tint="?attr/colorOnPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        android:id="@+id/welcome"
+        android:id="@+id/bye"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_user"
+        android:text="@string/bye_user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

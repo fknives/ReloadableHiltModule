@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HiltReloadableModule</string>
+    <string name="login">login</string>
+    <string name="any_name">Any Name</string>
+    <string name="please_fill_username">Please give a name</string>
+    <string name="hello_user">hello %1$s your content: %2$d!</string>
+    <string name="bye_user">Bye %1$s your content: %2$d!</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Logout</string>
 </resources>
