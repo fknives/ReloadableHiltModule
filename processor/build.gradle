@@ -23,7 +23,7 @@ dependencies {
 
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.0"
     testImplementation "org.junit.jupiter:junit-jupiter-engine:5.7.0"
-    testImplementation "com.github.tschuchortdev:kotlin-compile-testing:1.4.2"
+    testImplementation "com.github.tschuchortdev:kotlin-compile-testing:1.4.6"
     testRuntimeOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlin_version")
     testRuntimeOnly("org.jetbrains.kotlin:kotlin-annotation-processing-embeddable:$kotlin_version")
 }
